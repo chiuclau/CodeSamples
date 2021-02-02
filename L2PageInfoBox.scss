@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap'); //work sans 400 weight
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap'); //work sans 600 weight
+
+.container{
+    width: 70vh;
+    max-width: 550px;
+    height: 65vh;
+
+    background: #FFFFFF;
+    /* Hover */
+
+    box-shadow: 0vh 0vh 23.87vh rgba(0, 0, 0, 0.32);
+    border-radius: 1.32vh;
+    overflow-y: scroll;
+}
+
+.largeContainer{
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+//parent
+.smallContainer{
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+//child: flex items
+.largeVTContainer{
+    max-width: 100vh;
+}
+
+.smallVTContainer{
+    max-width: 40vh;
+    padding-bottom: 5vh;
+    padding-right: 6.5vh;
+}
+
+.voice{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(19px + 0.05em);
+
+    align-items: center;
+    color: #000000;
+    padding-bottom: 0.8vh;
+}
+
+.text{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(17px + 0.05em);
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000; 
+}
